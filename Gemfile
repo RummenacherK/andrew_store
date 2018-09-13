@@ -29,7 +29,18 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
+gem 'jquery-rails'
+gem 'devise'
+gem 'carrierwave'  #for PC or Mac
+gem 'cancancan'
+gem 'pry-rails' #for rails c
 
+gem 'better_errors', group: :development
+
+gem 'binding_of_caller' #works with better errors to see
+                        #instance variable values
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
