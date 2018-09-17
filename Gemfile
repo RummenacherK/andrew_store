@@ -37,6 +37,10 @@ gem 'carrierwave'  #for PC or Mac
 gem 'cancancan'
 gem 'pry-rails' #for rails c
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
+gem 'certified'
+
 gem 'better_errors', group: :development
 
 gem 'binding_of_caller' #works with better errors to see
